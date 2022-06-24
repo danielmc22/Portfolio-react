@@ -1,0 +1,43 @@
+ {
+    "navbar-welcome" : "Welcome !",
+
+    "choose-lang" : "Lang",
+
+    "header-desc" : " Developer Fullstack MERN", 
+
+    "about-title" : "About Me :",
+
+    "about-desc" : "Hello there! I am Daniel, Web developer Mern Stack (Mongo db, Express.js, React.js, Node.js). I discovered in technology the perfect way to create in reality what my mind imagines inside. Every day I seek to improve my skills to achieve my goals and be able to provide more value in what I do. I'm currently looking for an opportunity in the IT world to grow and give the best of myself.",
+
+    "about-desc-below" : "More information get my CV in the button below",
+
+    "text-button" : "GET MY CV",
+
+    "projects-title" : "My Projects",
+
+    "skills-title" : "SKILLS & EXPERIENCE :",
+
+    "hover" : "Hover to details",
+
+    "skill-back-1" : "Make and set up a server",
+    "skill-back-2" : "Make controllers and models",
+    "skill-back-3" : "Connect and config database",
+    "skill-back-4" : "Sessions and a authentications",
+
+    "skill-front-1" : "Development of static and dynamic websites",
+    "skill-front-2" : "Creating and deploying interactive and mobile friendly sites",
+    "skill-front-3" : "Products based on a good UX and seeking to achieve a good UI",
+
+    "soft-skills" : "SOFT SKILLS",
+    "skill-soft-1" : "Conviction of achieving the proposed objectives",
+    "skill-soft-2" : "Love to learn and grow up permanently",
+    "skill-soft-3" : "Attention, good listening and assertive communication",
+    "skill-soft-4" : "Teamwork and responsibility with the tasks and purposeful person",
+
+    "tools" : "Main Tools",
+
+    "footer-based" : "Based in Medellín - Col.",
+    "footer-contact" : "Contact me:"
+
+}
+

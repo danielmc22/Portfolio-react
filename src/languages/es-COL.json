@@ -1,0 +1,42 @@
+{
+
+    "navbar-welcome" : "Bienvenido!",
+
+    "choose-lang" : "Idioma",
+
+    "header-desc" : "Desarrollador Web Jr. MERN", 
+
+    "about-title" : "Sobre mi :",
+
+    "about-desc" : "Hola! Mi nombre es Daniel, desarrollador web Stack MERN (Mongo db, Express.js, React.js, Node.js). Descubrí en la tecnología la mejor manera de crear en la realidad lo que mi mente imagina en su interior. A diario busco mejorar mis capacidades y la forma de alcanzar las metas y asi poder brindar gran valor en lo que hago. Actualmente me encuentro buscando una oportunidad para ingresar al sector IT y de esta manera poder crecer dando siempre lo mejor de mi.",
+
+    "about-desc-below" : "Para mas información, consigue mi CV en el boton debajo",
+
+    "text-button" : "Obten mi CV",
+
+    "projects-title" : "Mis Proyectos",
+
+    "skills-title" : "HABILIDADES Y EXPERIENCIA:",
+
+    "hover" : "Pasa el cursor",
+
+    "skill-back-1" : "Crear y configurar un servidor",
+    "skill-back-2" : "Creación de controladores y modelos",
+    "skill-back-3" : "Conectar y configurar una base de datos",
+    "skill-back-4" : "Sesiones y autenticaciones",
+
+    "skill-front-1" : "Desarrollo de sitios web estáticos y dinámicos",
+    "skill-front-2" : "Creación y despliegue de sitios interactivos y responsivos",
+    "skill-front-3" : "Produtos basados en una buena UX y procurando siempre una buena UI para los usuarios",
+
+    "soft-skills" : "HABILIDADES BLANDAS",
+    "skill-soft-1" : "Compromiso y trabajo duro para conseguir objetivos propuestos",
+    "skill-soft-2" : "Gusto por aprender y crecer permanentemente",
+    "skill-soft-3" : "Atención, capacidad de escucha activa y comunicación asertiva",
+    "skill-soft-4" : "Trabajo en equipo y sentido de responsabilidad con los deberes y objetivos",
+
+    "tools" : "Principales Herramientas",
+
+    "footer-based" : "Medellín - Colombia",
+    "footer-contact" : "Contacto :"
+}

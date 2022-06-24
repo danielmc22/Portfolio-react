@@ -1,0 +1,123 @@
+.carousel-container {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0 30px 0;
+}
+.carouselNeto {
+    /* border: solid 1px rgba(255, 0, 0, 0.699); */
+    height: 70vh;
+}
+.carousel-title {
+    color: rgb(0, 0, 0);
+    width: 39%;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+}
+.slide-container {
+    object-fit:contain;
+    height: 50vh;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.slide-container > img{
+     width: 240px;
+    height: 50vh; 
+    /* object-fit:cover; */
+    transition: all 0.4s ease-in-out;
+}
+.slide-container:hover > img{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+.slide-desc {
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    padding-left: 30px;
+    border-bottom-left-radius: 20px;
+    opacity: 0.8;
+}
+.slide-desc > span {
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 4px 0px;
+    margin-right: 8px;
+}
+.buttons-slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.buttons-slides a {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    width: 55px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px 13px;
+    padding: 3px 3px;
+    /* background-color: rgb(46, 46, 46); */
+    text-shadow: 2px 3px 3px #000000;
+    color: white;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+    font-weight: 800;
+}
+.buttons-slides a:hover {
+    font-size: 15px;
+    width: 60px;
+    border-radius: 15px;
+    margin: 10px 13px;
+    padding: 3px 3px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+.BrainhubCarousel__arrows {
+    background-color: black;
+    border-radius: 50%;
+    margin: 0px 8px;
+    transition: all 0.2s ease-in-out;
+}
+.BrainhubCarousel__arrows:hover {
+    background-color: rgb(26, 64, 134) !important;
+    transform: scale(1.1);
+}   
+
+@media screen and (max-width: 800px) { 
+    .carousel-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        padding: 30px 0 30px 0;
+    }
+    .carousel-title {
+        color: rgb(0, 0, 0);
+        width: 90%;
+        text-align: center;
+        font-size: 23px;
+        padding: 0 20px 0 20px;
+    }
+}

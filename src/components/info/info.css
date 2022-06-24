@@ -1,0 +1,202 @@
+.clasex {
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    color: white;
+    margin-bottom: 65vh;
+}
+.info-title {
+    width: 100%;
+    font-size: 24px;
+    padding: 35px 0 10px 0;
+    text-align: center;
+}
+.info-title > p {
+    display: inline;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+.info-title > p:hover {
+    border-bottom: white 4px solid;
+}
+
+/* card  --  card  --  card  --  card */
+.card-container1 {
+    position: absolute;
+    top: 306%;
+    left: 20%;
+    width: 290px;
+    height: 370px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+  }
+  .card-container2 {
+    position: absolute;
+    top: 306%;
+    left: 50%;
+    width: 290px;
+    height: 370px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+  }
+  .card-container3 {
+    position: absolute;
+    top: 306%; 
+    left: 80%;
+    width: 290px;
+    height: 370px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card-container1:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  .card-container2:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  .card-container3:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  }
+  .front > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 3px #000000;
+  }
+  .front > h6 {
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: #363636 2px 2px 1px;
+    color: #3e7ab3;
+  }
+  .back {
+    width: 100%;
+    background: #d8d8d8;
+    color: rgb(0, 0, 0);
+    transform: rotateY( 180deg );
+    padding: 25px 10px 10px 10px;
+  }
+
+  .skill {
+    width: 80%;
+    font-size: 12px;
+    margin: 20px auto;
+    text-align: justify;
+  }
+  .skill-3 {
+    width: 80%;
+    font-size: 12px;
+    margin: 10px auto;
+    text-align: justify;
+  }
+  .span1 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url(../../assets/checked.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .skill-logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+    /* border: solid 1px red; */
+  }
+  .b {
+    margin-top: 15px;
+  }
+  .h2-title {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .h2-title-b {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .container-logo-front-a{
+    width: 20%;
+    margin: 0 6px 0 6px
+    }
+  .container-logo-front-b {
+    width: 30%;
+    /* border: solid 1px blue; */
+  }
+  .skills-logos-img {
+    width: 50px;
+    height: 50px;
+    /* border: solid 1px red; */
+  }
+
+  @media screen and (max-width: 1024px) { 
+    .clasex {
+      height: 255vh;
+  }
+    .card-container1 {
+      position: absolute;
+      top: 336%;
+      left: 50%;
+    }
+    .card-container2 {
+      position: absolute;
+      top: 409%;
+      left: 50%;
+    }
+    .card-container3 {
+      position: absolute;
+      top: 480%; 
+      left: 50%;
+    }
+  }
+
+  @media screen and (max-width: 500px) { 
+    .info-title > p {
+      display: inline;
+      font-weight: 800;
+      letter-spacing: 2px;
+      font-size: 20px;
+  }
+  }
+  
+
+  
